@@ -1,0 +1,244 @@
+
+.back-picture{
+  background: url("@{base-url}/d180907/thanksgiving-back-picture.png");
+  background-repeat:repeat no-repeat;
+  background-position: center top;
+  background-size: 180% 100%;
+}
+
+.thanks-giving-day{
+  display: inline-block;
+  &__title{
+    white-space: pre-line;
+    background-image: linear-gradient(to bottom, #d083f9, #833bd1);
+    font-family: HGGGothicssi60g;
+    font-size: 22px;
+    line-height: 1.23;
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  &__discount-image{
+    margin-top: 21px;
+    background: url("@{base-url}/d180907/thanks-giving-day-main-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 252px;
+  }
+}
+
+.sale-and-use-period{
+   margin-top: 36px;
+   width: 229px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 28px;
+  .sale-period{
+    div{
+      display: inline-block;
+      vertical-align: middle;
+    }
+    &__title{
+      padding-top: 4px;
+      width: 63px;
+      height: 24px;
+      margin-right: 3px;
+      border-radius: 12.9px;
+      background-color: #e899f6;
+      font-family: HGGGothicssi80g;
+      font-size: 14px;
+      letter-spacing: -0.7px;
+      text-align: center;
+      color: #ffffff;
+    }
+    &__content{
+      font-family: HGGGothicssi80g;
+      font-size: 16px;
+      letter-spacing: -1.1px;
+      color: #ffffff;
+    }
+  }
+  .use-period{
+    div {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    &__title{
+      padding-top: 4px;
+      margin-right: 3px;
+      width: 63px;
+      height: 24px;
+      border-radius: 12.9px;
+      background-color: #e899f6;
+      font-family: HGGGothicssi80g;
+      font-size: 14px;
+      letter-spacing: -0.7px;
+      text-align: center;
+      color: #ffffff;
+    }
+    &__content{
+      font-family: HGGGothicssi80g;
+      font-size: 16px;
+      letter-spacing: -1.1px;
+      color: #ffffff;
+    }
+  }
+}
+
+.lesson-time-box{
+  margin-top: 57px;
+  background-image: url("@{base-url}/d180907/carculation-time.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height:30px;
+}
+
+
+.back-color{
+  padding-top: 28px;
+  background-image: radial-gradient(circle at 52% 47%, #370b7f, #0e003b);
+}
+
+.event-lesson-ticket-species{
+  .event-ticket{
+    width:326px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.07);
+    position: relative;
+    padding: 10px 0;
+    margin: 24px auto 0;
+    text-align: center;
+    div{
+      display: inline-block;
+    }
+
+    &__banner{
+      width: 79px;
+      height: 80px;
+      position: absolute;
+      left: -6px;
+      top: -6px;
+      &.event-ticket__banner--global{
+        background: url("@{base-url}/d180907/global-banner.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      &.event-ticket__banner--native{
+        background: url("@{base-url}/d180907/native-banner.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      &.event-ticket__banner--chinese{
+        background: url("@{base-url}/d180907/chinese-banner.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+
+    &__line1{
+      width: 202px;
+      height: 23px;
+      border-radius: 99px;
+      background-color: #f7f7f7;
+      &__tutor{
+        font-family: HGGGothicssi80g;
+        font-size: 16.2px;
+        line-height: 1.18;
+        color: #003eae;
+        &:after{
+          content: "|";
+          display: inline-block;
+          position: relative;
+          left: 2px;
+          color: #d8d8d8;
+          font-weight: bold;
+        }
+      }
+      &__time{
+        font-family: HGGGothicssi80g;
+        font-size: 16.2px;
+        line-height: 1.18;
+        color: #4f4f4f;
+      }
+    }
+
+    &__line2{
+      margin-top: 11px;
+      div{
+        vertical-align: middle;
+      }
+      &__origin-price{
+        opacity: 0.2;
+        font-family: HGGGothicssi80g;
+        font-size: 27.7px;
+        text-align: center;
+        color: #6e298b;
+        background: url("@{base-url}/d180907/right-direction.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 122px;
+        opacity: 0.7;
+        border-radius: 1.1px;
+      }
+      &__discount-percent{
+        width: 50px;
+        height: 28px;
+        padding-top: 3px;
+        border-radius: 13.9px;
+        background-color: #f03c3c;
+        font-family: HGGGothicssi80g;
+        font-size: 20.6px;
+        text-align: center;
+        color: #ffffff;
+      }
+      &__discounted-price{
+        font-family: HGGGothicssi80g;
+        font-size: 29.7px;
+        text-align: center;
+        color: #6e298b;
+      }
+    }
+  }
+}
+
+.footer{
+  margin-top: 49px;
+  background-color: rgba(38, 26, 142,0.3);
+  .footer__item__notice{
+    padding: 24px;
+    font-size: 16px;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #fff;
+    li{
+      padding: 0.2em 0;
+      font-size: 12px;
+      letter-spacing: -0.7px;
+      line-height: 1.6;
+      &.footer__item--notice__item--title{
+        font-size: 15.5px;
+        font-weight: bold;
+        padding-bottom: 6px;
+      }
+      &:not(.footer__item--notice__item--title){
+        padding-left: 17px;
+        position: relative;
+        &:before{
+          position: absolute;
+          content: '';
+          top: 0.5em;
+          left: 0;
+          width: 0.3em;
+          height: 0.3em;
+          display: block;
+          border-radius: 10em;
+          background-color: rgba(255,255,255,0.28);
+        }
+      }
+    }
+  }
+}
